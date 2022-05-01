@@ -1,0 +1,179 @@
+.card-img-top
+{
+    transform :scale(1);
+    transition:transform 0.5s ease;
+}
+
+.card-img-top:hover
+{
+   transform:scale(1.8); 
+}
+
+.btn-success
+{
+    border-radius:50%;
+    
+} 
+
+.btn-success:hover
+{
+    transform:scale(1.8);
+}
+
+.cart-button
+{
+    outline:none;
+    background-color:green;
+    cursor:pointer;
+    transition:0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cart-button:hover
+{
+    background-color:red ;
+
+}
+
+.cart-button:active
+{
+    transform:scale(.9);
+}
+
+.cart-button .fa-shopping-cart
+{
+    position:absolute;
+    z-index:2;
+    top:50%;
+    left:-10%;
+    font-size:2em;
+    transform: translate(-50%, -50%);
+}
+
+.cart-button .fa-box
+{
+    position:relative;
+    z-index:2;
+    top:40%;
+    left:52%;
+    font-size:1.2em;
+    transform: translate(-40%, -40%);
+    
+}
+
+.cart-button span
+{
+    position:relative;
+    z-index:3;
+    top:-20%;
+    left:20%;
+    font-size:1.3em;
+    transform: translate(-40%, -40%);
+    color:#fff;
+} 
+
+.cart-button span.add-to-cart 
+{
+    opacity:1;
+}
+
+.cart-button span.added 
+{
+    opacity:0;
+}
+
+
+.cart-button.clicked  .fa-shopping-cart 
+{
+    animation: cart 1.5s ease-in-out forwards;
+}
+
+.cart-button.clicked  .fa-box 
+{
+    animation: box 1.5s ease-in-out forwards;
+}
+
+.cart-button.clicked span.add-to-cart 
+{
+    animation: txt1 1.5s ease-in-out forwards;
+}
+
+.cart-button.clicked span.added 
+{
+    animation: txt2 1.5s ease-in-out forwards;
+}
+
+
+
+@keyframes cart 
+{
+   0%
+   { left: 10%; }
+   40% ,60%
+   { left: 50%; }
+   100%
+   { left: 110%; }
+   
+}
+
+@keyframes box
+{
+   0%,40%
+   { top: -20%; }
+   60%
+   { 
+    top: 40% ; 
+    left: 52%; }
+   100%
+   { top: 40%;
+     left: 112%; }
+   
+}
+
+@keyframes txt1
+{
+    0%{
+        opacity:1;
+    }
+    20%, 100%
+    {
+        opacity: 0;
+    }
+}
+
+@keyframes txt1
+{
+    0%{
+        opacity:1;
+    }
+    20%, 100%
+    {
+        opacity: 0;
+    }
+}
+
+@keyframes txt1
+{
+    0%{
+        opacity:1;
+    }
+    20%, 100%
+    {
+        opacity: 0;
+    }
+}
+
+@keyframes txt1
+{
+    0%,80%{
+        opacity:1;
+    }
+    20%, 100%
+    {
+        opacity: 1;
+    }
+}
+
+
+

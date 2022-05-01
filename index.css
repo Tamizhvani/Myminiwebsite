@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  background-image:url('https://singularity-ffc.s3.amazonaws.com/products/91075/images/91075_4bd537eb-98df-48c2-8d2d-3dba3f868fd4.jpg') ;
+}
+
+img1,img2,img3
+{
+  transition:all 1.5s ease;
+  overflow: hidden;
+}
+
+img1,img2,img3:hover
+{
+  transfrom:scale(1.5);
+}
