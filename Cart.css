@@ -1,0 +1,30 @@
+.btn-danger
+{
+    border-radius:50%;
+}
+
+.btn-primary 
+{
+    border-radius:50%;
+}
+
+.btn-info
+{
+    border-radius:50%;
+}
+
+.btn-danger:hover
+{
+    transform:scale(1.8);
+}
+
+.btn-info:hover
+{
+    transform:scale(1.8);
+
+}
+
+.btn-primary:hover
+{
+    transform:scale(1.8);
+}
